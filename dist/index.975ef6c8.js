@@ -597,37 +597,7 @@ const heroesList = (0, _heroesHbsDefault.default)({
 });
 document.body.insertAdjacentHTML("beforeend", heroesList);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../temeplades/heroes.hbs":"fQNqS","../dataHeroes.json":"9aMex"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"fQNqS":[function(require,module,exports) {
+},{"../temeplades/heroes.hbs":"fQNqS","../dataHeroes.json":"9aMex","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fQNqS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _handlebars = require("handlebars");
@@ -11916,7 +11886,37 @@ var isSourceNode = "$$$isSourceNode$$$";
 };
 exports.SourceNode = SourceNode;
 
-},{"a07d2c2c4b11c39f":"eAEEU","18d5ff036a08fa06":"tCCrk"}],"9aMex":[function(require,module,exports) {
+},{"a07d2c2c4b11c39f":"eAEEU","18d5ff036a08fa06":"tCCrk"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"9aMex":[function(require,module,exports) {
 module.exports = JSON.parse('[{"hero":"Aragorn","weapon":"And\xfaril","skills":["Swordsmanship","Leadership","Tracking"],"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKWIYTbXKEZLocWHB1-W7YJgCtPE63NYaAg&usqp=CAU"},{"hero":"Legolas","weapon":"Bow of the Galadhrim","skills":["Archery","Swordsmanship","Agility"],"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42x-0T51YGCrxbKZQbhsyoERYzHjGeE4jHw&usqp=CAU"},{"hero":"Gandalf","weapon":"Glamdring","skills":["Wizardry","Staff-fighting","Wisdom"],"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMeZQlldJPmrcIQP-mWf0P4Iwt2vGuoZlLA&usqp=CAU"},{"hero":"Frodo Baggins","weapon":"Sting","skills":["Stealth","Courage","Resilience"],"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnsHhI7FcRqwTwDLhB3xBVRx8bfNQSxMW-DA&usqp=CAU"},{"hero":"Gollum","weapon":"His bare hands","skills":["Stealth","Climbing","Survival"],"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk8G_iAS6Crtfr4-Vno4SwvQbVyl00OQEzTw&usqp=CAU"}]');
 
 },{}]},["farZc","8lqZg"], "8lqZg", "parcelRequire716c")
